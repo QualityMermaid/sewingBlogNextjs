@@ -12,7 +12,7 @@ type Project = {
   description: string;
   images: string;
   made: boolean;
-  finishedbag: string;
+  finisheditem: string;
   link: string;
   slug: string;
 }
