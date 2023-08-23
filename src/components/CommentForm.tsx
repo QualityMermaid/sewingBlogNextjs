@@ -19,7 +19,8 @@ export default function CommentForm({slug, username}: {slug:string, username:str
     formData.append("comment", comment)
 
     const options = {body: formData, method: "POST"}
-    const res = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, options)
+    const res = await fetch(`/api/comments/${slug}`, options)
+    // const res = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, options)
 
     // @ts-ignore
     event.target.comment.value = ""
