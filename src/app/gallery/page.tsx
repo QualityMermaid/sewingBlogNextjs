@@ -1,6 +1,31 @@
+import { getPostsByMade, getPosts } from "@/lib/projects"
+import Image from "next/image"
 
-export default function GalleryPage() {
+type GalleryPageParams = {
+  params: {
+    made: string
+  }
+}
+
+export function generateStaticParams(){
+  const posts = getPosts()
+  return posts.map((post)=>({topic: post.topic}))
+}
+
+export default function GalleryPage({params}:GalleryPageParams) {
+  const galleryImages = getPostsByMade(params.made)
+  console.log(galleryImages)
+
   return (
-    <div>gallery of completed work</div>
+    <main>
+      <h2 className="text-2xl text-center text-blue-600">Gallery</h2>
+      {galleryImages.map((project) => {
+            return(
+              <div key={project.slug}>
+                <Image src={project.finishedbag} alt="bag" width={300} height={300}></Image>
+              </div>
+            )
+          })}
+    </main>
   )
 }
