@@ -9,7 +9,7 @@ type GalleryPageParams = {
 
 export function generateStaticParams(){
   const posts = getPosts()
-  return posts.map((post)=>({topic: post.topic}))
+  return posts.map((post)=>({made: post.made}))
 }
 
 export default function GalleryPage({params}:GalleryPageParams) {
