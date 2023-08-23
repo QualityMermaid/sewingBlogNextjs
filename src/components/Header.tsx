@@ -3,9 +3,6 @@ import Link from "next/link"
 import { UserButton } from "@clerk/nextjs";
 import LogButton from "./LogButton";
 
-
-
-
 export default function Header(){
 
   return(
@@ -17,7 +14,7 @@ export default function Header(){
       </div>
       <nav className="m-2">
         <ul className="flex gap-3 justify-center">
-          <li className=""><Link href="/">Home</Link></li>
+          <li><Link href="/">Home</Link></li>
           <li><Link href="/projects">Projects</Link></li>
           <li><Link href="/gallery">Gallery</Link></li>
         </ul>

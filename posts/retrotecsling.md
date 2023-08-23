@@ -4,8 +4,13 @@ craft: Bag
 description: A sling backpack from Kandoupatterns
 images: /images/retrotecsling.avif
 made: true
-finishedbag: /images/Laptop.jpg
+finisheditem: /images/laptopbag.jpg
 link: https://www.etsy.com/uk/listing/1337391189/retro-tec-sling-bag-sewing-pattern?ref=yr_purchases
 ---
 
-Stuff made
+During my code course from TechEducators I decided to make myself a birthday present of a backpack for carrying my laptop!   
+Also has a built in phone holder on the strap!
+
+Images from my created project   
+![alt text](/images/laptopbag.jpg)
+![alt text](/images/laptopbagback.jpg)

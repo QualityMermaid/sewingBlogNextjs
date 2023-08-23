@@ -4,8 +4,8 @@ craft: Bag
 description: A sling backpack from Kaur Threads
 images: /images/yoshisling.webp
 made: false
-finishedbag: /images/notmade.png
+finisheditem: /images/notmade.png
 link: https://kaurthreads.com/b/5xyAn
 ---
 
-Stuff made
+I have not made this bag yet but have the pattern ready to go!!!!
