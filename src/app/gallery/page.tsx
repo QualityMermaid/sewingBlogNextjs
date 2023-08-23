@@ -22,7 +22,7 @@ export default function GalleryPage({params}:GalleryPageParams) {
       {galleryImages.map((project) => {
             return(
               <div key={project.slug}>
-                <Image src={project.finishedbag} alt="bag" width={300} height={300}></Image>
+                <Image src={project.finishedbag} alt="bag" width="300" height="300"/>
               </div>
             )
           })}
