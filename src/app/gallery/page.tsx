@@ -7,10 +7,10 @@ type GalleryPageParams = {
   }
 }
 
-export function generateStaticParams(){
-  const posts = getPosts()
-  return posts.map((post)=>({made: post.made}))
-}
+// export function generateStaticParams(){
+//   const posts = getPosts()
+//   return posts.map((post)=>({made: post.made}))
+// }
 
 export default function GalleryPage({params}:GalleryPageParams) {
   const galleryImages = getPostsByMade(params.made)
