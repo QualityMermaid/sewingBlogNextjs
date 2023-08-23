@@ -1,19 +1,21 @@
 import { getPostsByMade, getPosts } from "@/lib/projects"
 import Image from "next/image"
 
-type GalleryPageParams = {
-  params: {
-    made: string
-  }
-}
+// type GalleryPageParams = {
+//   params: {
+//     made: string
+//   }
+// }
 
 // export function generateStaticParams(){
 //   const posts = getPosts()
 //   return posts.map((post)=>({made: post.made}))
 // }
 
-export default function GalleryPage({params}:GalleryPageParams) {
-  const galleryImages = getPostsByMade(params.made)
+// export default function GalleryPage({params}:GalleryPageParams) {
+  export default function GalleryPage() {
+  const galleryImages = getPostsByMade()
+  // const galleryImages = getPostsByMade(params.made)
   console.log(galleryImages)
 
   return (
@@ -22,7 +24,7 @@ export default function GalleryPage({params}:GalleryPageParams) {
       {galleryImages.map((project) => {
             return(
               <div key={project.slug}>
-                <Image src={project.finishedbag} alt="bag" width="300" height="300"/>
+                <Image src={project.finishedbag? project.finishedbag: ""} alt="bag" width="300" height="300"/>
               </div>
             )
           })}

@@ -5,7 +5,8 @@ export function getPosts(){
     return POSTS
 }
 
-export function getPostsByMade(made: string){
+export function getPostsByMade(){
+    // export function getPostsByMade(made: string){
     return POSTS.filter((post)=> post.made === true)
 }
 
