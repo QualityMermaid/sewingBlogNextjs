@@ -26,10 +26,10 @@ export default async function Comments({slug}:{slug:string}) {
       {/* @ts-ignore*/}
       {comments.map((comment) => {
         return (
-            <li className="border border-blue-400 p-1 m-2" key={comment.uuid}>
-                <h3 className="text-xl text-fuchsia-400 p-1">{comment.username}</h3>
+            <div className="border border-green-400 p-1 m-2" key={comment.uuid}>
+                <h3 className="text-xl text-blue-400 p-1">{comment.username}</h3>
                 <p className="p-2">{comment.comment}</p>
-            </li>
+            </div>
         )
       })}
     </div>

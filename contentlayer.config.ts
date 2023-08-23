@@ -9,7 +9,7 @@ export const Post = defineDocumentType(() => ({
     description: { type: "string", required: true },
     images: { type: "string", required: true },
     made: {type: "boolean", required: true},
-    finishedbag: { type: "string", required: true },
+    finisheditem: { type: "string", required: true },
     link: { type: "string", required: true },
 
   },
