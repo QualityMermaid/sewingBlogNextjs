@@ -1,14 +1,15 @@
-import { allPosts as POSTS } from ".contentlayer/generated"
+import { allPosts as POSTS} from ".contentlayer/generated"
 
 
 export function getPosts(){
     return POSTS
 }
 
-export function getPostBySlug(slug: string){
-    return POSTS.find((post)=> post.slug === slug)
+export function getPostsByMade(made: string){
+    return POSTS.filter((post)=> post.made === true)
 }
 
-export function getPostsByTopic(topic: string){
-    return POSTS.filter((post)=> post.topic === topic)
+
+export function getPostBySlug(slug: string){
+    return POSTS.find((post)=> post.slug === slug)
 }
