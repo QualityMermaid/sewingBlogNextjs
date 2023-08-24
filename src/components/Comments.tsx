@@ -1,8 +1,9 @@
 import {WEBSITE_URL} from "config"
 import CommentForm from "./CommentForm"
-import {currentUser} from "@clerk/nextjs"
+import {UserButton, currentUser} from "@clerk/nextjs"
 import type { User } from "@clerk/nextjs/api";
 import Link from "next/link";
+import LogButton from "./LogButton";
 
 export default async function Comments({slug}:{slug:string}) {
   const user: User | null = await currentUser();
@@ -20,8 +21,10 @@ export default async function Comments({slug}:{slug:string}) {
   return(
     <div>
       <h3>Comment</h3>
+      <LogButton/>
+      <UserButton afterSignOutUrl={`redirect=/projects/${slug}`}/>
       {/* @ts-ignore*/}
-      {user ? <CommentForm slug={slug} username={user.username}/> : <Link href="/sign-up">Please sign-in to comment</Link>}
+      {user ? <CommentForm slug={slug} username={user.username}/> : <Link href={`/sign-in?redirect=/projects/${slug}`}>Please sign-in to comment</Link>}
       <h3>Comments</h3>
       {/* @ts-ignore*/}
       {comments.map((comment) => {

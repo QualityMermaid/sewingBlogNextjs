@@ -28,7 +28,7 @@ export default function CommentForm({slug, username}: {slug:string, username:str
   }
   return (
     <form onSubmit={handleFormSubmit} className="flex flex-col p-1 m-2">
-      <p>Commenting as {username}</p>
+      <p>You are signed in as {username}</p>
       <label htmlFor="comment">Comment</label>
       <textarea className="bg-gray-300 text-black" name="comment" cols={30} rows={20} required></textarea>
       <button className="hover:text-blue-600" type="submit" disabled={isPending}>
