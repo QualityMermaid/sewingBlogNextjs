@@ -9,8 +9,8 @@ export default function Header(){
     <header className={`${merienda.className} sticky top-0 left-0 right-0  w-ful p-4 bg-gray-700`}>
       <h1 className={`${handlee.className} text-blue-600 text-5xl text-center`}>Crafts by Bane</h1>
       <div className="flex float-right">
-      <LogButton/>
-      <UserButton afterSignOutUrl="/"/>
+      {/* <LogButton/> */}
+      {/* <UserButton afterSignOutUrl={`redirect=/projects/`}/> */}
       </div>
       <nav className="m-2">
         <ul className="flex gap-3 justify-center">
