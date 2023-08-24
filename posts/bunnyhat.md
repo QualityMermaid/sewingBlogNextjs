@@ -10,5 +10,5 @@ link: https://www.etsy.com/uk/listing/761852751/the-twisted-bunny-pattern-please
 
 My sister loves Stitch and when I saw this pattern I thought I could easily adapt it.   
 
-Images from my created project   
-![alt text](/images/stitch.jpg)
+### Images from my created project   
+* ![alt text](/images/stitch.jpg "mdImage")

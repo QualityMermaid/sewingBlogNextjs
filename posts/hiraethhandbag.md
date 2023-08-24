@@ -10,6 +10,7 @@ link: https://lavender-and-twine.com/products/the-hiraeth-handbag-pdf-pattern-wi
 
 Made this lovely bag once and plan to make a few more.   
 Got some lovely fabrics on pre-order for it!
-Images from my created project   
-![alt text](/images/nicola2.jpg)
-![alt text](/images/nicola.jpg)
+
+### Images from my created project   
+* ![alt text](/images/nicola2.jpg "mdImage")
+* ![alt text](/images/nicola.jpg "mdImage")
