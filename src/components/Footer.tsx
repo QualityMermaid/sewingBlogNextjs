@@ -1,10 +1,11 @@
-import Link from "next/link";
 
 export default function Footer(){
   return(
     <footer>
-      <div className="text-center text-blue-600"><span className="text-lime-500">&copy;</span> Jessica Bane</div>
-      <Link className="flex float-right p-2" href="/contact">Contact</Link>
+      <div className=" text-blue-600">
+      <p className="text-center"> <span className="text-lime-500">&copy;</span> Jessica Bane</p>
+      <p className="float-right pb-2 pr-2 mr-3">Email: jessicambane@gmail.com</p>
+      </div>
     </footer>
   )
 }

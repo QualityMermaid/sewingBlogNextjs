@@ -13,6 +13,6 @@ I have made two of these bags now and modifited the pattern both times.
 The Green bag as an added liner and binding around the outside.   
 The Black has a liner done in a different way and I modified the flap. Husband approved!
 
-Images from my created project   
-![alt text](/images/smallmessanger.jpg)
-![alt text](/images/smallmessangeropen.jpg)
+### Images from my created project   
+* ![alt text](/images/smallmessanger.jpg "mdImage")
+* ![alt text](/images/smallmessangeropen.jpg "mdImage")

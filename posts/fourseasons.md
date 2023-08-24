@@ -13,6 +13,6 @@ SO I have made a few of these patterns for him, I can unpick the band and add in
 There are a number of different options as well!   
 Also made matching tops!!!!  
 
-Images from my created project   
-![alt text](/images/rowan4seasons.jpg)
-![alt text](/images/dino.jpg)
+### Images from my created project   
+* ![alt text](/images/rowan4seasons.jpg "mdImage")
+* ![alt text](/images/dino.jpg "mdImage")

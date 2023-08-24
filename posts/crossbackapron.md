@@ -10,6 +10,6 @@ link: https://www.etsy.com/uk/listing/1041060635/kids-cross-back-apron-sewing-pa
 
 Made this very nice apron for my nephew's 2nd birthday.   
 
-Images from my created project   
-![alt text](/images/leoapron.jpg)
-![alt text](/images/leoapronback.jpg)
+### Images from my created project   
+* ![alt text](/images/leoapron.jpg "mdImage")
+* ![alt text](/images/leoapronback.jpg "mdImage")

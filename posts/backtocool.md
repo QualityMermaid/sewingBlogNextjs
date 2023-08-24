@@ -12,5 +12,7 @@ Have made this once for my son and he loves it!
 Holds even his larger waterbottles where most toddler bags don't.   
 Pattern was easy to follow and this was my first EVER bag I have made!!!
 
-Images from my created project   
-![alt text](/images/rowanbag.jpg)
+### Images from my created project 
+
+* ![alt text](/images/rowanbag.jpg "mdImage")
+
