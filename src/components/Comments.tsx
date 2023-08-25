@@ -3,8 +3,9 @@ import CommentForm from "./CommentForm"
 import {UserButton, currentUser} from "@clerk/nextjs"
 import type { User } from "@clerk/nextjs/api";
 import Link from "next/link";
-import LogButton from "./LogButton";
 import { handlee, merienda } from "@/fonts/fonts";
+import Remove from "./Remove";
+
 
 export default async function Comments({slug}:{slug:string}) {
   const user: User | null = await currentUser();
@@ -32,8 +33,8 @@ export default async function Comments({slug}:{slug:string}) {
             <div className="border border-green-400 p-1 m-2" key={comment.uuid}>
                 <h3 className="text-xl text-blue-400 p-1">{comment.username}</h3>
                 <p className="p-2">{comment.comment}</p>
-                {/* <button onClick={removeComment}>Remove</button> */}
-                <p>{comment.uuid}</p>
+                {/* <Remove uuid={comment.uuid}/> */}
+                {/* <p>{comment.uuid}</p> */}
             </div>
         )
       })}
