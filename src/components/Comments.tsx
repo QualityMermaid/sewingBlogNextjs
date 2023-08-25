@@ -4,7 +4,7 @@ import {UserButton, currentUser} from "@clerk/nextjs"
 import type { User } from "@clerk/nextjs/api";
 import Link from "next/link";
 import { handlee, merienda } from "@/fonts/fonts";
-import Remove from "./Remove";
+// import Remove from "./Remove";
 
 
 export default async function Comments({slug}:{slug:string}) {
