@@ -13,10 +13,10 @@ export default function Header(){
       {/* <UserButton afterSignOutUrl={`redirect=/projects/`}/> */}
       </div>
       <nav className="m-2">
-        <ul className="flex gap-3 justify-center">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/projects">Projects</Link></li>
-          <li><Link href="/gallery">Gallery</Link></li>
+        <ul className="flex gap-3 justify-center ">
+          <li className="hover:text-green-500"><Link href="/">Home</Link></li>
+          <li className="hover:text-green-500"><Link href="/projects">Projects</Link></li>
+          <li className="hover:text-green-500"><Link href="/gallery">Gallery</Link></li>
         </ul>
       </nav>
     </header>
