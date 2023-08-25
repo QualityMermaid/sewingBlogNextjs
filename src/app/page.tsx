@@ -1,5 +1,6 @@
 
 export default function Home() {
+
   return (
     <main className="p-2 bg-scroll bg-hero-image bg-cover bg-fill h-screen w-screen">
       <h2 className="text-4xl text-center text-green-600 p-2">Welcome</h2>
