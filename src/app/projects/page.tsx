@@ -29,7 +29,6 @@ export default function ProjectsPage() {
                 <Link href={`/projects/${project.slug}`}>
                 <Image placeholder="blur" blurDataURL={`/_next/image?url=${project.images}&w=16&q=1`}  src={project.images} width={300} height={300} alt={project.title}/>
                 <h4 className="text-center pt-2">{project.title}</h4>
-
                 </Link>
               </li>
             )

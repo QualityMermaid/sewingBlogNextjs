@@ -1,6 +1,7 @@
 import { getPostsByMade, getPosts } from "@/lib/projects"
 import Image from "next/image"
 import Link from "next/link"
+import NotFound from "../not-found"
 
 
 
