@@ -14,17 +14,10 @@ export async function saveComment(username:string, comment:string, slug:string) 
   return uuid
 }
 
-export async function removeComment(username:string, comment:string, slug:string) {
-  const uuid = short.generate()
-  const commentObject = JSON.stringify({
-    username,
-    comment,
-    uuid
-  })
-  kv.set(`comment:${uuid}`, commentObject)
-  const commentList = await kv.lpush(`comments:${slug}`, uuid)
+export async function removeComment(uuid:string, slug:string) {
+ console.log(`removing ${uuid}`)
 
-  return uuid
+  return
 }
 
 export async function getComments(slug: string) {
